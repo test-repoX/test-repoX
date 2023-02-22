@@ -1,0 +1,209 @@
+
+
+/* Main section CSS */
+#main {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.main {
+    margin-top: 10%;
+    height: 100%;
+}
+.texno-info h3 {
+    font-size: 100px;
+}
+.texno-info p {
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+/* Main 2 Section CSS */
+#main-2 {
+    height: 100vh;
+}
+
+.main-2 {
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+} 
+.main-2 h3 {
+    font-size: 100px;
+}
+
+.projects-info {
+    text-align: center;
+}
+.projects-div {
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.project {
+    width: 300px;
+    height: 500px;
+    background: red;
+}
+
+/*
+.project-1 {
+}
+*/
+
+/*
+.project-2 {
+}
+*/
+
+/*
+.project-3 {
+}
+*/
+
+.project-pic {
+    width: 250px;
+    height: 200px;
+    background: blue;
+    margin: 25px;
+}
+
+/*
+.project-pic-1 {
+    background: url("");
+}
+.project-pic-2 {
+    background: url("");
+}
+.project-pic-3 {
+    background: url("");
+}
+*/
+
+.project-text {
+    margin-left: 25px;
+    width: 250px;
+    height: 175px;
+    background-color: blueviolet;
+}
+
+.project-button {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: burlywood;
+}
+.project-button a {
+    display: block;
+    width: 150px;
+    padding-top: 15px;
+    background-color: blueviolet;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Main 3 Section CSS */
+#main-3 {
+    height: 100vh;
+}
+
+.main-3 {
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+} 
+.main-3 h3 {
+    font-size: 100px;
+}
+
+.news-info {
+    text-align: center;
+}
+.news-div {
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.news {
+    width: 300px;
+    height: 500px;
+    background: red;
+}
+
+/*
+.news-1 {
+}
+*/
+
+/*
+.news-2 {
+}
+*/
+
+/*
+.news-3 {
+}
+*/
+
+.news-pic {
+    width: 250px;
+    height: 200px;
+    background: blue;
+    margin: 25px;
+}
+
+/*
+.news-pic-1 {
+    background: url("");
+}
+.news-pic-2 {
+    background: url("");
+}
+.news-pic-3 {
+    background: url("");
+}
+*/
+
+.news-text {
+    margin-left: 25px;
+    width: 250px;
+    height: 175px;
+    background-color: blueviolet;
+}
+
+.news-button {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: burlywood;
+}
+.news-button a {
+    display: block;
+    width: 150px;
+    padding-top: 15px;
+    background-color: blueviolet;
+    margin: auto;
+    
+}
+
