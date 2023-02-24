@@ -1,43 +1,74 @@
-#about {
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 100vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
 #texno-text {
     width: 100%;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.textext {
-    font-size: 200px;
-    font-weight: 700;
-    
+    position: relative;
 }
 
-
-.#texno-text > .bg-video {
-    width: 100%;
+  
+video {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   
-  /* background-color and color should be the same as the below otherwise it won't work */
-  #texno-text > .textext {
+.textext {
     position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    background-color: #000;
-    color: #fff;
-    font-weight: 900;
-    font-size: 100px;
-    font-family: sans-serif;
-    /* Mix Blend Mode does the all magic */
-    mix-blend-mode: multiply;
-    user-select: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    font-weight: bold;
+    background: #fff;
+    color: #000;
+    mix-blend-mode: screen;
   }
+
+#about {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about {
+    padding: 5%;
+}
+
+.qiyas0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.qiyas {
+    display: block;
+    width: 200px;
+    background-color: transparent;
+    border: transparent;
+    outline: transparent;
+}
+
+.about-us-text {
+    margin-bottom: 50px;
+}
+.gallery-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.gallery-item {
+    flex: 0 1 20%;
+    background-color: #000;
+    width: 30%;
+    height: 200px;
+}
