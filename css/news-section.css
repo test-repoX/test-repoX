@@ -1,0 +1,337 @@
+.bodyback {
+    background-image: linear-gradient( 180deg, #4764bf,#111a36 , rgb(0, 0, 0), rgb(0, 0, 0) , rgb(0, 0, 0));
+}
+.newscontainer1 {
+    background-color: #E5D1FA;
+    width: 530px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:400px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    position: absolute;
+
+}
+  .date-and-new1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+   .dateandname {
+    border-left: 2px solid #3a59c0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   .date {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px !important;
+    color: rgb(254, 254, 254) !important;
+    font-size: 13px !important;
+    margin: 5px 3px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+   }
+   .name {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px !important;
+    color: rgb(254, 254, 254) !important;
+    font-size: 20px !important;
+    margin: 0px 2px !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    box-sizing: border-box;
+    cursor: pointer;
+   }
+
+.newscontainer2 {
+    background-color: #E5D1FA;
+    width: 530px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:935px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    position: relative;
+}
+  .date-and-new2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+.newscontainer3 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:405px;
+    margin-top: 15px;
+    margin-bottom:0;
+    position: absolute;
+}
+.date-and-new3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.newscontainer4 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:670px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    position: absolute;
+    
+}
+.date-and-new4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.newscontainer5 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:935px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    position: absolute;
+}
+.date-and-new5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.newscontainer6 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:1200px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    position: relative;
+}
+.date-and-new6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+.newscontainer7 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:405px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.date-and-new7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+.newscontainer8 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:670px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.date-and-new8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+.newscontainer9 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:935px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.date-and-new9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+.newscontainer10 {
+    background-color: #E5D1FA;
+    width: 260px;
+    height: 280px;
+    border: 0.5mm solid;
+    border-radius: 15px;
+    border-color: black;
+    margin:1200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.date-and-new10 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgb(32, 9, 68), black);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container {
+    background-color:black ;
+}
+.newscontainer1:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 200px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer2:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 200px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer3:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer4:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer5:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer6:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer7:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer8:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer9:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
+.newscontainer10:hover {
+    box-shadow: 0 4px 1000px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+}
