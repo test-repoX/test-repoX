@@ -69,13 +69,9 @@
   .alt-send-button:hover {
     transform: translate3d(0px, -29px, 0px);
   }
-  
-  /* Begin Right Contact Page */
   .direct-contact-container {
     max-width: 400px;
   }
-  
-  /* Location, Phone, Email Section */
   .contact-list {
     list-style-type: none;
     margin-left: -30px;
