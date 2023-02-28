@@ -5,7 +5,6 @@
 }
 #projects {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,15 +12,20 @@
 .projects-title {
     width: 100%;
 }
+
+.project {
+    margin-top: 3%;
+}
 .projects-box {
     display: flex;
     width: 80%;
     margin: auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #news {
+    margin-top: 15%;
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -29,13 +33,19 @@
 .news-title {
     width: 100%;
 }
+.news {
+    margin-top: 3%;
+}
 .news-box {
     display: flex;
     width: 80%;
     margin: auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer-section {
+    margin-top: 20%;
     width: 100%;
     height: 100vh;
 }
+
