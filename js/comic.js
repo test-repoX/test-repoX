@@ -1,10 +1,10 @@
 /* Title JS */
-let title = document.title;
+let titlee = document.title;
 window.addEventListener("blur", () => {
     document.title = "TexnoParka geri dön!";
 });
 window.addEventListener("focus", () => {
-    document.title = title;
+    document.title = titlee;
 });
 
 
