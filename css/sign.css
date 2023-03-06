@@ -1,9 +1,0 @@
-#signUp {
-    visibility: hidden;
-    opacity: 0;
-}
-
-#signUp:target {
-    visibility: visible;
-    opacity: 1;
-}

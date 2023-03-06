@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Örnek Kod</title>
+    <script>
+      function goster(id) {
+        var gosterilecekDiv = document.getElementById(id);
+        var simdikiDiv = document.querySelector('div.goster');
+        simdikiDiv.classList.remove('goster');
+        gosterilecekDiv.classList.add('goster');
+      }
+    </script>
+    <style>
+      div {
+        display: none;
+      }
+      div.goster {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#div1" onclick="goster('div1')">A etiketi 1</a>
+    <a href="#div2" onclick="goster('div2')">A etiketi 2</a>
+    <div id="div1" class="goster">Div 1</div>
+    <div id="div2">Div 2</div>
+  </body>
+</html>
